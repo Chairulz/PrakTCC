@@ -1,0 +1,10 @@
+GET http://localhost:5000/notes
+
+###
+POST http://localhost:5000/add-note
+Content-Type: application/json
+
+{
+    "title":"Ini Judul",
+    "content":"Ini adalah isi catatan"
+}
